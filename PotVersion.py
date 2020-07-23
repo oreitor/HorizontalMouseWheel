@@ -18,14 +18,17 @@ while True:
         reading = pot.read()
         threshold = 0.5
         value = reading - threshold
+
         if abs(round(value * 7)) < 1:
             left_led.write(0)
             right_led.write(0)
         else:
+
             if value > 0:
                 left_led.write(1)
                 pag.press("left", abs(round(value * 7)))
             else:
                 right_led.write(1)
                 pag.press("right", abs(round(value * 7)))
+
     time.sleep(0.1)
