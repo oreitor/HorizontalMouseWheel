@@ -21,7 +21,7 @@ When you upload the Firmata sketch to Arduino, you don't notice any activity on 
 ```python
 pip install pyFirmata
 ```
-After the installation finishes, you can run an any application using Python and Firmata with Arduino. For this project, you can run [Pot Version](https://github.com/oreitor/HorizontalMouseWheel/blob/master/AnalogReadSerial.png).
+After the installation finishes, you can run an any application using Python and Firmata with Arduino. For this project, you can run [Pot Version](https://github.com/oreitor/HorizontalMouseWheel/blob/master/PotVersion.py).
 
 ### Ultrasonic Version
 
