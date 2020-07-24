@@ -1,6 +1,6 @@
 # Horizontal Mouse Wheel
 
-For this project, I made two version using Python and Arduino. If do you wanna use potantiometer and leds you can choose 'Pot Version' or another option is 'Ultrasonic Version' with using HR-SC4 ultrasonic sensor. I got help from [pyFirmata](https://pypi.org/project/pyFirmata/) module in Pot Version. However, in the Ultrasonic version, I preferred the [pyserial](https://pypi.org/project/pyserial/) module.
+For this project, I made two version using Python and Arduino. If do you wanna use potantiometer and leds you can choose 'Pot Version'[(Click for video)](https://twitter.com/oreitorx/status/1286421570647478274) or another option is 'Ultrasonic Version'[(Click for video)](https://twitter.com/oreitorx/status/1286422388733771780) with using HR-SC4 ultrasonic sensor. I got help from [pyFirmata](https://pypi.org/project/pyFirmata/) module in Pot Version. However, in the Ultrasonic version, I preferred the [pyserial](https://pypi.org/project/pyserial/) module.
 
 There is also a great package for mouse control, which is our main goal. The [PyAutoGUI](https://pypi.org/project/PyAutoGUI/) module provides cross-platform support for managing mouse and keyboard operations through code to enable automation of tasks. You can install this pip:
 
