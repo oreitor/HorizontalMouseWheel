@@ -5,12 +5,15 @@ long duration;
 long distance;
 
 void setup() {  
+  
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
   Serial.begin(9600);  
+  
 }
 
 void loop() {  
+  
   digitalWrite(trigPin,LOW);
   delayMicroseconds(5);
   digitalWrite(trigPin, HIGH);
@@ -25,4 +28,5 @@ void loop() {
   
   Serial.println(distance);
   delay(200);    
+  
 }
