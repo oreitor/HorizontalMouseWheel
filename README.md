@@ -15,7 +15,7 @@ Unlike the previous version, we will take the serial port data on the Arduino in
 Now, we have to write code related reading serial to Arduino. Actually, we dont have to write code too. Because, the related sketch is also available in the built-in examples of the Arduino IDE. To open it, access the File menu, then Examples, followed by 01.Basics, and finally AnalogReadSerial:
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/oreitor/contactless-horizontal-mouse-wheel-control/blob/master/HMW.gif">
+  <img width="600" src="https://github.com/oreitor/contactless-horizontal-mouse-wheel-control/blob/master/HMW.gif">
 </p>
 
 When you upload the AnalogReadSerial sketch to Arduino, you can read serial port data on Arduino with Python. However, firstly you should install pySerial package, which you can install with pip:
