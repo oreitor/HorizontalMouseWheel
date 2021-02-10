@@ -1,6 +1,6 @@
 # Horizontal Mouse Wheel with Contactless Control
 
-Implementation that acts as a Horizontal Mouse Wheel with contactless control. For this implementation, we need just two electronics component and simple code writed with Python. 
+Implementation that acts as a Horizontal Mouse Wheel with contactless control. For this implementation, we need just two electronics component and simple code written with Python. 
 
 <p align="center">
   <img width="600" src="https://github.com/oreitor/contactless-horizontal-mouse-wheel-control/blob/master/HMW.gif">
